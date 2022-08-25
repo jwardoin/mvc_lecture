@@ -6,9 +6,9 @@ MVC is an architecture/design pattern used to develop software, emphasizing sepa
 
 ## MVC
 
-M - Model - refers to the ‘shape’ of our data and how it is stored
-V - View - refers to what is shown to the end-user
-C - Controller - refers to the logic that handles requests, often interacting with both the Model and View
+- M - **Model** - refers to the ‘shape’ of the data and how it is stored
+- V - **View** - refers to what is shown to the end-user
+- C - **Controller** - refers to the logic that handles user requests, often interacting with both the Model and View
 
 ### The M - Model
 
@@ -24,7 +24,8 @@ The job of the Controller is to handle user requests and to make updates to the 
 
 ### Why MVC?
 
-- Separation of how data is stored, how it is displayed, and how user requests interact with the Model allows for:
+Separation of how data is stored, how it is displayed, and how user requests interact with the Model allows for:
+
 - Organization of large web application
 - Support of asynchronous
 - Ease of modification
